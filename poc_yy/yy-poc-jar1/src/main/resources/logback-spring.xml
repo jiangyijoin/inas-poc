@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<contextName>test</contextName>
+
+	<appender name="INFO"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>/${HomeFileDir}/log/boco-poc-radar1-${InstanceID}.log
+		</file>
+		<append>true</append>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>/${HomeFileDir}/log/boco-poc-radar1-${InstanceID}-%d{yyyyMMddHH}.log
+			</fileNamePattern>
+			<maxHistory>90</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[%p] [%d] [%t] [%c] - [%m]%n</pattern>
+		</encoder>
+	</appender>
+
+	<root level="info">
+		<appender-ref ref="INFO" />
+	</root>
+
+</configuration>  

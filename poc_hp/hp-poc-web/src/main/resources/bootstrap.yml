@@ -1,0 +1,13 @@
+server:
+  port: 7083
+  tomcat:
+    uri-encoding:UTF-8
+
+spring:
+  application:
+    name: hp-poc-web
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

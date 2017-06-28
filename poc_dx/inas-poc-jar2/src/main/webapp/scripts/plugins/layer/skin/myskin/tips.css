@@ -1,0 +1,45 @@
+
+/*mytip1*/
+.mytip1.layui-layer-tips .layui-layer-content{
+    background-color: #004098;
+}
+.mytip1.layui-layer-tips i.layui-layer-TipsB, .mytip1.layui-layer-tips i.layui-layer-TipsT {
+    border-right-color: #004098;
+}
+.mytip1.layui-layer-tips i.layui-layer-TipsL, .mytip1.layui-layer-tips i.layui-layer-TipsR{
+    border-bottom-color: #004098;
+}
+
+/*mytip2*/
+.mytip2.layui-layer-tips .layui-layer-content{
+    background-color: #58cb4a;
+}
+.mytip2.layui-layer-tips i.layui-layer-TipsB, .mytip2.layui-layer-tips i.layui-layer-TipsT {
+    border-right-color: #58cb4a;
+}
+.mytip2.layui-layer-tips i.layui-layer-TipsL, .mytip2.layui-layer-tips i.layui-layer-TipsR{
+    border-bottom-color: #58cb4a;
+}
+
+/*mytip3*/
+.mytip3.layui-layer-tips .layui-layer-content{
+    background-color:#545454
+}
+.mytip3.layui-layer-tips i.layui-layer-TipsB, .mytip3.layui-layer-tips i.layui-layer-TipsT {
+    border-right-color: #545454
+}
+.mytip3.layui-layer-tips i.layui-layer-TipsL, .mytip3.layui-layer-tips i.layui-layer-TipsR{
+    border-bottom-color:#545454
+}
+
+/*mytip4*/
+.mytip4.layui-layer-tips .layui-layer-content{
+    background-color:#777700
+}
+.mytip4.layui-layer-tips i.layui-layer-TipsB, .mytip4.layui-layer-tips i.layui-layer-TipsT {
+    border-right-color: #777700
+}
+.mytip4.layui-layer-tips i.layui-layer-TipsL, .mytip4.layui-layer-tips i.layui-layer-TipsR{
+    border-bottom-color:#777700
+}
+
